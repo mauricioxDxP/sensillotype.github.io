@@ -42,7 +42,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const routes = [
-    { path: 'frases', component: _componentes_frases_frases_component__WEBPACK_IMPORTED_MODULE_2__["FrasesComponent"] },
+    { path: '', component: _componentes_frases_frases_component__WEBPACK_IMPORTED_MODULE_2__["FrasesComponent"] },
 ];
 class AppRoutingModule {
 }
@@ -213,6 +213,18 @@ class FrasesComponent {
 █▀█
 ▀░▀
 ░░░`;
+            case "g":
+                return `░░░░
+█▀▀▀
+█░▀█
+▀▀▀▀
+░░░░`;
+            case "b":
+                return `░░░
+█▀▄
+█▀█
+▀▀░
+░░░`;
                 break;
             case "c":
                 return `░░
@@ -220,6 +232,12 @@ class FrasesComponent {
 █░
 ▀▀
 ░░`;
+            case "d":
+                return `░░░
+█▀▄
+█░█
+▀▀░
+░░░`;
                 break;
             case "f":
                 return `░░░
@@ -262,6 +280,12 @@ class FrasesComponent {
 █░█
 ░▀░
 ░░░`;
+            case "w":
+                return `░░░░░
+█░█░█
+█░█░█
+░▀░▀░
+░░░░░`;
                 break;
             case "i":
                 return `░
@@ -276,6 +300,12 @@ class FrasesComponent {
 █░
 ▀▀
 ░░░`;
+            case "j":
+                return `░░░░
+░░▀░
+▄░█░
+▀▀▀░
+░░░░`;
             case "m":
                 return `░░░░░
 █▄░▄█
@@ -307,12 +337,24 @@ class FrasesComponent {
 ▀▀▀
 ░░░`;
                 break;
+            case "x":
+                return `░░░░░
+█░░░█
+░▀▄▀░
+▄▀░▀▄
+░░░░░`;
             case "y":
                 return `░░░░░
 █▄░▄█
 ░▀█▀░
 ░▒▀░░
 ░░░░░`;
+            case "z":
+                return `░░░░
+▀▀▀█
+░▄▀░
+▀▀▀▀
+░░░░`;
             case " ":
                 return `░
 ░
